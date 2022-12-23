@@ -1,0 +1,54 @@
+2022-12-18T18:15:23.814+05:00  INFO 6978 --- [main] com.example.KunUz1Application            : Starting KunUz1Application using Java 18.0.2 with PID 6978 (/home/maruf/Downloads/kun_uz1/target/classes started by maruf in /home/maruf/Downloads/kun_uz1)
+2022-12-18T18:15:23.832+05:00 DEBUG 6978 --- [main] com.example.KunUz1Application            : Running with Spring Boot v3.0.0, Spring v6.0.2
+2022-12-18T18:15:23.833+05:00  INFO 6978 --- [main] com.example.KunUz1Application            : The following 1 profile is active: "dev"
+2022-12-18T18:15:24.478+05:00  INFO 6978 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-18T18:15:24.534+05:00  INFO 6978 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51 ms. Found 11 JPA repository interfaces.
+2022-12-18T18:15:24.921+05:00  INFO 6978 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-12-18T18:15:24.927+05:00  INFO 6978 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-18T18:15:24.927+05:00  INFO 6978 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2022-12-18T18:15:24.976+05:00  INFO 6978 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-18T18:15:24.976+05:00  INFO 6978 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1083 ms
+2022-12-18T18:15:25.009+05:00 DEBUG 6978 --- [main] com.example.config.TokenFilter           : Filter 'tokenFilter' configured for use
+2022-12-18T18:15:25.074+05:00  INFO 6978 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-18T18:15:25.099+05:00  INFO 6978 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.5.Final
+2022-12-18T18:15:25.231+05:00  WARN 6978 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2022-12-18T18:15:25.309+05:00  INFO 6978 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-18T18:15:25.506+05:00  INFO 6978 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1752e45c
+2022-12-18T18:15:25.507+05:00  INFO 6978 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-18T18:15:25.542+05:00  INFO 6978 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-12-18T18:15:26.322+05:00  INFO 6978 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-18T18:15:26.328+05:00  INFO 6978 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-18T18:15:27.142+05:00  WARN 6978 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-18T18:15:27.548+05:00  INFO 6978 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7308e2d6, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@37b97394, org.springframework.security.web.context.SecurityContextHolderFilter@28fa0ff8, org.springframework.security.web.header.HeaderWriterFilter@1b6824c1, org.springframework.security.web.authentication.logout.LogoutFilter@23972e02, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5963a2c9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4698ae6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@645a9649, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6f371390, org.springframework.security.web.access.ExceptionTranslationFilter@6970687e, org.springframework.security.web.access.intercept.AuthorizationFilter@186f7553]
+2022-12-18T18:15:27.720+05:00  INFO 6978 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-12-18T18:15:27.727+05:00  INFO 6978 --- [main] com.example.KunUz1Application            : Started KunUz1Application in 4.607 seconds (process running for 5.12)
+2022-12-18T18:15:39.003+05:00  INFO 6978 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-18T18:15:39.005+05:00  INFO 6978 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-18T18:15:39.012+05:00  INFO 6978 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-12-18T18:15:41.803+05:00  INFO 7214 --- [main] com.example.KunUz1Application            : Starting KunUz1Application using Java 18.0.2 with PID 7214 (/home/maruf/Downloads/kun_uz1/target/classes started by maruf in /home/maruf/Downloads/kun_uz1)
+2022-12-18T18:15:41.813+05:00 DEBUG 7214 --- [main] com.example.KunUz1Application            : Running with Spring Boot v3.0.0, Spring v6.0.2
+2022-12-18T18:15:41.815+05:00  INFO 7214 --- [main] com.example.KunUz1Application            : The following 1 profile is active: "dev"
+2022-12-18T18:15:42.407+05:00  INFO 7214 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-18T18:15:42.457+05:00  INFO 7214 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45 ms. Found 11 JPA repository interfaces.
+2022-12-18T18:15:42.845+05:00  INFO 7214 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-12-18T18:15:42.851+05:00  INFO 7214 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-18T18:15:42.852+05:00  INFO 7214 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2022-12-18T18:15:42.901+05:00  INFO 7214 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-18T18:15:42.901+05:00  INFO 7214 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1044 ms
+2022-12-18T18:15:42.935+05:00 DEBUG 7214 --- [main] com.example.config.TokenFilter           : Filter 'tokenFilter' configured for use
+2022-12-18T18:15:43.001+05:00  INFO 7214 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-18T18:15:43.027+05:00  INFO 7214 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.5.Final
+2022-12-18T18:15:43.133+05:00  WARN 7214 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2022-12-18T18:15:43.199+05:00  INFO 7214 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-18T18:15:43.372+05:00  INFO 7214 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@54bb1194
+2022-12-18T18:15:43.373+05:00  INFO 7214 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-18T18:15:43.400+05:00  INFO 7214 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-12-18T18:15:44.129+05:00  INFO 7214 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-18T18:15:44.134+05:00  INFO 7214 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-18T18:15:44.898+05:00  WARN 7214 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-18T18:15:45.292+05:00  INFO 7214 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2d63534d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6316b9e3, org.springframework.security.web.context.SecurityContextHolderFilter@f7a19c4, org.springframework.security.web.header.HeaderWriterFilter@685a3c14, org.springframework.security.web.authentication.logout.LogoutFilter@1b1434ce, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@251d64d6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2c48eb31, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@79dd79eb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@186f7553, org.springframework.security.web.access.ExceptionTranslationFilter@5304cee, org.springframework.security.web.access.intercept.AuthorizationFilter@1b0709e7]
+2022-12-18T18:15:45.470+05:00  INFO 7214 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-12-18T18:15:45.477+05:00  INFO 7214 --- [main] com.example.KunUz1Application            : Started KunUz1Application in 4.051 seconds (process running for 4.49)
+2022-12-18T18:25:18.886+05:00  INFO 7214 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-18T18:25:18.887+05:00  INFO 7214 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-18T18:25:18.893+05:00  INFO 7214 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
